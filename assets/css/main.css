@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 375px;
+    height: 730px;
+    background-color: #fafafa;
+}
+
+.hero {
+    background-image: url('/assets/img/mobile-bg.jpg');
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 200px;
+}
+
+.logo {
+    position: relative;
+    top: 48px;
+    left: 26px;
+}
+
+.moon {
+    position: relative;
+    top: 45px;
+    left: 215px;
+}
+
+.work-input {
+    margin: 80px 24px;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 180px;
+}
+
+.form-img{
+    margin-left: 50px;
+    position: relative;
+    bottom: 295px;
+}
+
+.task-list {
+    margin-left: 24px;
+    position: relative;
+    bottom: 255px;
+    width: 327px;
+    background-color: white;
+    padding: 8px 52px;
+    border-radius: 5px;
+}
+
+.task-list p {
+    color: #494C6B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.1666666716337204px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.rect {
+    width: 327px;
+    height: 1px;
+    border-bottom: 1px solid #E3E4F1;
+    position: relative;
+    top: 16px;
+    right: 52px;
+}
+
+.work-img {
+    position: relative;
+    right: 30px;
+    top: 5px
+}
+
+.delete-btn {
+    width: 12px;
+    height: 12px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 230px;
+    bottom: 18px;
+}
+
+.edit-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 225px;
+    bottom: 15px;
+}
+
+.edit-input {
+    margin: 80px 24px;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 150px;
+}
+
+#task-count {
+    color: #9495A5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.1666666716337204px;
+    text-align: center;
+    width: 327px;
+    background-color: white;
+    padding: 19px 52px;
+    border-radius: 5px;
+    margin-left: 24px;
+    margin-bottom: 59px;
+    position: relative;
+    bottom: 200px;
+}
+
+.container h6 {
+    color: #9495A5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.1944444477558136px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+@media (width >425px) {
+    .container {
+        width: 1440px;
+        height: 800px;
+        background-color: #fafafa;
+    }
+
+    .hero {
+        background-image: url('/assets/img/desktop-bg.jpg');
+        background-repeat: no-repeat;
+        width: 1440px;
+        height: 300px;
+    }
+
+    .logo {
+        position: relative;
+        left: 455px;
+        top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .moon {
+        position: relative;
+        top: 50px;
+        left: 850px;
+    }
+
+    .work-input {
+        margin-left: 453px;
+        width: 540px;
+        height: 48px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        bottom: 230px;
+    }
+
+    .form-img{
+        position: relative;
+        bottom: 225px;
+        right: 600px;
+    }
+    .task-list {
+        margin-left: 453px;
+        position: relative;
+        bottom: 60px;
+        width: 540px;
+        background-color: white;
+        padding: 19px 52px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 280px;
+    }
+
+    .task-list p {
+        margin-top: 5px;
+        color: #494C6B;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.25px;
+        text-align: left;
+        word-wrap: break-word;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .rect {
+        width: 540px;
+        height: 1px;
+        border-bottom: 1px solid #E3E4F1;
+        position: relative;
+        top: 16px;
+        right: 52px;
+    }
+
+    .delete-btn {
+        width: 12px;
+        height: 12px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 430px;
+        bottom: 38px;
+
+    }
+
+    .edit-btn {
+        border: none;
+        cursor: pointer;
+    }
+
+    .edit-btn img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        left: 425px;
+        bottom: 35px;
+    }
+
+    .edit-input {
+        margin-left: 550px;
+        width: 327px;
+        height: 48px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        bottom: 200px;
+    }
+
+    #task-count {
+        color: #9495A5;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: -0.1666666716337204px;
+        text-align: center;
+        width: 327px;
+        background-color: white;
+        padding: 19px 52px;
+        border-radius: 5px;
+        margin-left: 550px;
+        margin-bottom: 59px;
+    }
+}
