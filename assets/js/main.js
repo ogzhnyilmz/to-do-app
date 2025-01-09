@@ -27,7 +27,7 @@ function handleSubmit(event) {
         formObj.id = tasks[tasks.length - 1].id + 1
     }
     tasks.push(formObj);
-    localStorage.setItem(`tasks`, JSON.stringify(tasks));
+    localStorage.setItem("tasks", JSON.stringify(tasks));
     toDoForm.reset();
     render();
     TaskCount();
@@ -39,7 +39,7 @@ function deleteTask(id) {
     const taskIndex = tasks.findIndex(task => task.id == id);
     if (taskIndex !== -1) {  
         tasks.splice(taskIndex, 1);
-        localStorage.setItem(`tasks`, JSON.stringify(tasks));
+        localStorage.setItem("tasks", JSON.stringify(tasks));
         render();
         TaskCount(); 
     }
@@ -127,6 +127,9 @@ function handleEditForm(event){
     }
     const task = tasks.find(task => task.id == formObj.id);
     task.work = formObj.work,
-    localStorage.setItem(`tasks`, JSON.stringify(tasks));
+    localStorage.setItem("tasks", JSON.stringify(tasks));
     render();
 }
+
+render();
+TaskCount();
